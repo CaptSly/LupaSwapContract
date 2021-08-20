@@ -1,10 +1,10 @@
 pragma solidity ^0.5.0;
 
-import "./Token.sol";
+import "https://github.com/CaptSly/LupaSwapContract/blob/765162cac50f0aaf4aff2e126422e36a3f1b5665/eUSDT.sol";
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 contract EtherSwap{
     string public name="EtherSwap Instant Exchange";
-    Token public token;
+    eUSDT public token;
     uint public rate=100;
 
     event TokensPurchased(
