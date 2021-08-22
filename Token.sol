@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.6;
+pragma solidity ^0.5.0;
 // use latest solidity version at time of writing, need not worry about overflow and underflow
 
 /// @title ERC20 Contract 
@@ -20,7 +20,7 @@ contract Token {
     event Transfer(address indexed from, address indexed to, uint256 value);
     event Approval(address indexed owner, address indexed spender, uint256 value);
 
-    constructor(string memory _name, string memory _symbol, uint _decimals, uint _totalSupply) {
+    constructor(string memory _name, string memory _symbol, uint _decimals, uint _totalSupply) public {
         name = _name;
         symbol = _symbol;
         decimals = _decimals;
