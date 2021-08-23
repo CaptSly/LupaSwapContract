@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
 contract Token {
-    string  public name = "Lupa Token";
+    string  public name = "Lupa Token v4";
     string  public symbol = "Lupa";
     uint256 public totalSupply = 100000000000000000000000000000; // 1 Trillion tokens
     uint8   public decimals = 18;
